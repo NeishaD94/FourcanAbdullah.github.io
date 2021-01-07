@@ -1,1 +1,1 @@
-# https://www.FourcanAbdullah.github.io
+# https://FourcanAbdullah.github.io
