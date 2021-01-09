@@ -1,0 +1,113 @@
+
+.p1{
+  border: 2px solid red;
+  color:red;
+  background:yellow;
+}
+.p2{
+
+  font-family: Arial;
+}
+.p3{
+
+  font-size: 45px
+}
+.p4{
+  border: 10px dotted blue;
+  color:rgb(255, 0, 100);
+  background: orange;
+  font-family: Arial;
+  font-size: 45px;
+  font-style: italic;
+}
+.p5{
+  border: 10px dotted blue;
+  color:green;
+  background: orange;
+  font-family: Arial;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  height: 34px;
+}
+.p6{
+  border: 10px dotted blue;
+  color:green;
+  background: orange;
+  font-family: Arial;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  height: 34px;
+  width: 85% ;
+}
+.p7{
+  border: 10px dotted blue;
+  color:green;
+  background: orange;
+  font-family: Arial;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  height: 34px;
+  width: 55% ;
+  margin: 17% 10% 12% 10% ;
+  padding:40px ;
+  padding:40px ;
+}
+.p8{
+  border: 6px solid blue;
+  color:Blue;
+  text-align: center;
+  background: orange;
+  font-family: Arial;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  height: 34px;
+  width:45% ;
+  margin: 11% ;
+  padding:40px ;
+  text-shadow:8px 4px 12px blue  ;
+  position: relative ;
+
+}
+</style>
+<style media="screen">
+  .P{
+    font-family: Arial ;
+    font-size: 45px;
+    font-weight: bold;
+
+    height: 18px;
+    width: ;
+
+    margin: 3% ;
+    padding:10px ;
+
+    text-shadow: ;
+    display: block;
+    position: ;
+    padding-left: 50px ;
+  }
+    .image1{
+      width: 27% ;
+      height: 220px;
+      float: left;
+      border: 10px dotted blue ;
+      weight: 20px ;
+      box-shadow: 5px 10px green ;
+      margin: 10px ;
+
+      border-radius:10%;
+    }
+    .imagebord{
+      border: 2px solid green;
+      width: 99%;
+      height: 270px;
+      margin:5px;
+    }
+
+    .text{
+
+    }
