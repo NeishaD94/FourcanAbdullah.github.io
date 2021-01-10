@@ -53,7 +53,6 @@
   width: 55% ;
   margin: 17% 10% 12% 10% ;
   padding:40px ;
-  padding:40px ;
 }
 .p8{
   border: 6px solid blue;
@@ -66,14 +65,13 @@
   font-weight: bold;
   height: 34px;
   width:45% ;
-  margin: 11% ;
+  margin: auto;
   padding:40px ;
   text-shadow:8px 4px 12px blue  ;
-  position: relative ;
+
 
 }
-</style>
-<style media="screen">
+
   .P{
     font-family: Arial ;
     font-size: 45px;
@@ -95,19 +93,29 @@
       height: 220px;
       float: left;
       border: 10px dotted blue ;
-      weight: 20px ;
       box-shadow: 5px 10px green ;
-      margin: 10px ;
 
+      margin: auto;
+      border-radius:10%;
+    }
+    .image2{
+      float: left;
+      width:100%;
+     height: 190px;
+      border-radius:10%;
+    }
+    .image3{
+      float: left;
+      width:100%;
+     height: 220px;
       border-radius:10%;
     }
     .imagebord{
       border: 2px solid green;
-      width: 99%;
+      width: auto;
       height: 270px;
-      margin:5px;
-    }
-
-    .text{
+      margin:auto;
+      text-align: center;
+      display:flex;
 
     }
