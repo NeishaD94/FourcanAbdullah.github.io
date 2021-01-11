@@ -1,0 +1,81 @@
+.image1{
+  width: 10%;
+}
+.image2{
+  width: 8%;
+  float: right;
+}
+.d1{
+  border-color: black;
+  border-style:solid;
+  background-color: pink;
+  width: 100%;
+  height: 900px;
+
+}
+.text1{
+  margin-left: 1%;
+  color: white;
+
+}
+.picsize{
+  float: left;
+  border: 2px solid blue;
+  margin-left: 4%;
+  width: 30%;
+  height: 350px;
+
+}
+.picsize2{
+  float: right;
+  border: 2px solid blue;
+  margin-right: 4%;
+  width: 30%;
+  height: 350px;
+  margin-top: 10%
+}
+.imagetext1{
+  width: 60% ;
+  height: 220px;
+  float: left;
+  margin: 2%;
+  color: white;
+}
+.imagetext2{
+  width: 60% ;
+  height: 220px;
+  float: right;
+  padding-top: 3%;
+  margin: 2%;
+  color: white;
+}
+.image3{
+  width:100%;
+  height: 100%;
+}
+.margin {
+margin-top: 0 auto;
+margin-bottom: 0 auto;
+}
+.margin2{
+  margin-left:2%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.tablelook{
+  border: 2px solid black;
+  background-color:white;
+}
+.contactp1{
+  float: left;
+  margin-left: 10px;
+  width: 50px;
+  vertical-align: bottom;
+}
+.conlinks{
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+}
