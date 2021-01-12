@@ -5,6 +5,7 @@ width:600px;
 height: 600px;
 background-repeat: no-repeat;
 background-size:100%;
+background-color: lightblue;
 /*background-size:100%
 used for fixing the size*/
 }
