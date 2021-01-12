@@ -18,7 +18,6 @@ used for fixing the size*/
   transform-origin: left;
   transform: rotate(-90deg);
   animation-name: bighand;
-  animation-delay: 2s;
   animation-duration: 10s;
 
 }
@@ -35,7 +34,6 @@ used for fixing the size*/
   margin-top: 275px;
   transform-origin: left;
   animation-name: smallhand;
-  animation-delay: 2s;
   animation-duration: 10s;
   animation-fill-mode: forwards;
 }
