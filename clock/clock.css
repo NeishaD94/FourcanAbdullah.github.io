@@ -1,0 +1,44 @@
+.clock{
+position: relative;
+background-image: url("clockimage.png");
+width:600px;
+height: 600px;
+background-repeat: no-repeat;
+background-size:100%;
+/*background-size:100%
+used for fixing the size*/
+}
+.hand{
+  position: absolute;
+  width:230px;
+  height: 50px;
+  margin-left: 300px;
+  margin-top: 275px;
+  transform-origin: left;
+  transform: rotate(-90deg);
+  animation-name: bighand;
+  animation-delay: 2s;
+  animation-duration: 10s;
+
+}
+@keyframes bighand{
+  0%{margin-left: 300px; margin-top: 275px;}
+  100%{transform: rotate(270deg); margin-left: 300px; margin-top: 275px;}
+}
+/*do from 3pm to 4pm*/
+.hand1{
+  position: absolute;
+  width:150px;
+  height: 50px;
+  margin-left: 300px;
+  margin-top: 275px;
+  transform-origin: left;
+  animation-name: smallhand;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+@keyframes smallhand{
+  0%{margin-left: 300px; margin-top: 275px;}
+  100%{transform: rotate(28deg);}
+}
