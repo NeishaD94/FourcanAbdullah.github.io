@@ -1,0 +1,381 @@
+.aniborder{
+  position: sticky;
+  height: 150px;
+}
+.logo1{
+  float: left;
+  width: 15%;
+  height: 140px;
+}
+.logo{
+  position: relative;
+  float: left;
+  border: 2px solid orange;
+  margin-left: 2px;
+  margin-top: 2px;
+  width:100%;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow:-2px 3px 3px green;
+  animation-name: logo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes logo {
+  0%{transform: scale(0);}
+  50%{transform: scale(10%);}
+  100{transform: scale(20%);}
+
+}
+
+.title{
+
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+}
+.title h1{
+  color: green;
+  animation-name: title;
+  animation-duration: 3s;
+  font-size:50px;
+  width: 100%;
+  animation-iteration-count: infinite;
+}
+@keyframes title {
+  0%{margin-left:10px; margin-top:-50px;}
+  50%{margin-left: 10px; margin-top: 110px;}
+  100%{margin-left:10px; margin-top:0px;}
+
+}
+.title h3{
+  animation-name: subtitle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes subtitle {
+  0%{margin-left:10px; margin-top:130px;}
+  50%{margin-left: 10px; margin-top: -180px;}
+  100%{margin-left:10px; margin-top:-29px;}
+
+}
+/*slides*/
+
+.frame{
+  width:100%;
+  height: 50px;
+  border: 2px solid red;
+  overflow: hidden;
+  /*overfolw*/
+}
+.slides{
+  width: 500%;
+  height: 100%;
+  animation: slideani 30s infinite;
+}
+@keyframes slideani {
+  0%{margin-left: 0%;}
+
+  25%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+
+  75%{margin-left: -100%;}
+
+  100%{margin-left: 0%;}
+
+}
+.indivslide{
+
+  width: 20%;
+  height: 99%;
+  float: left;
+  font-size: 20px;
+  text-align: center;
+
+}
+.indivslide:nth-child(1){
+  background-color: lightgreen;
+
+}
+.indivslide:nth-child(2){
+  background-color: orange;
+}
+.indivslide:nth-child(3){
+  background-color: red;
+}
+/*the pictures*/
+
+.thebigpic{
+  position: relative;
+  width:100%;
+  height: 600px;
+}
+.pic1{
+    position: absolute;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;;
+}
+
+.textbox{
+  margin-top: 10%;
+  margin-left: 15%;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  border: 2px solid white;
+  background-color: grey;
+  width: 300px;
+  height: 23%;;
+  position: absolute;
+  color:black;
+}
+
+.introimg{
+  position: relative;
+  background-image: linear-gradient(rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+   url("images/intro_img1.jpg");
+   width:40%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+   color: white;
+   border:2px solid green;
+   float: left;
+
+
+}
+
+.textbox2{
+  filter: saturate(20%);
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  border:2px solid yellow;
+  border-radius: .5px;
+  margin-left: 20%;
+  margin-top: 10%;
+  width:60%;
+  height: 150px;
+  color:white;
+}
+
+.textbox3{
+  margin-left: 10%;
+  border: 2px solid red;
+  background-image: linear-gradient(rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
+  float: right;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+   width:40%;
+  height: 385px;
+}
+
+.imgborder{
+  width:auto;
+  height: 411px;;
+}
+
+/*lotions*/
+.masterborder{
+  text-align: center;
+  width: 100%;
+  height: 80%;
+}
+.break{
+  color:green;
+
+}
+.suborder{
+  width: 25%;
+  float: left;
+  margin-left: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  height: 90%;
+}
+
+
+.suborder img{
+  padding-top: 10%;
+  width: 80%;
+  height: 60%;
+}
+.suborder a{
+  text-decoration: none;
+  height: 5%;
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+
+}
+.suborder a:hover{
+  background-color: grey;
+
+}
+.mwindow1{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(22, 23, 225, 0.5);
+    opacity: 0;
+    pointer-events: none;
+
+    transition:all 400ms ease-in-out;
+}
+.mwindow1:target{
+  opacity: 1;
+  pointer-events: all;
+
+}
+.closewindow{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.msgblock{
+
+  position: relative;
+  width:400px;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 2%;
+
+
+}
+.msgblock img{
+  padding-top: 5%;
+  width: 30%;
+}
+.h{
+  border: 2px solid white;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: -4px;
+}
+.subborder{
+  width: auto;
+  height: 160px;
+}
+
+.imgb{
+  height: 100%;
+  width: 25%;
+}
+.c1{
+  float: left;
+  margin-left: 4px;
+  height: 80%;
+}
+.c2{
+  margin-right: 2%;
+  margin-left: 2%;
+  float: left;
+  width: 60%;
+
+}
+.blank{
+  margin-left: 4%;
+  width: 90%;
+  border: 2px solid grey;
+  background-color: grey;
+}
+.blank2{
+  background-color: white;
+  width: 90%;
+  border: 2px solid white;
+
+}
+.textbackground{
+  background-color: lightgrey;
+  padding-bottom: 10px;
+  padding-left: 7px;
+}
+.close{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  margin-top: 4px;
+  padding: 3px 3px 3px 3px;
+}
+.close:hover{
+  background-color: black;
+  color: white;
+}
+
+.border{
+  height:700px;
+  width: 100%;
+}
+.xbutton{
+  float: right;
+  padding-left:10px;
+  padding-right:10px;
+  background-color: lightgrey;
+  color: black;
+  text-decoration: none;
+}
+/*Contacts*/
+
+.contact{
+  border:2px solid black;
+  margin:auto;
+  color:black;
+  width:100%;
+  height: 430px;
+  background-color: black;
+}
+
+.subcontact1{
+
+  float: left;
+  width:24%;
+  text-align: center;
+  color:white;
+  background-color: black;
+  height: 150px;
+}
+
+.contract1{
+  text-align: center;
+  height: 170px;
+}
+
+.another{
+  text-align: center;
+  color: white;
+  width: 50%;
+  float: right;
+  height: 20%;
+
+
+}
+
+.logocontact{
+  text-align: center;
+
+  margin-left: 5%;
+  width:25px;
+  height: 10%;
+  text-decoration: none;
+     border: 0px !important;
+
+}
+
+.another1{
+  margin-top: 180px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  height: 70px;
+}
