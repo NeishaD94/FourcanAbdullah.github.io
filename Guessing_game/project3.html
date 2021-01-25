@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+        body {
+            height: 100vh;
+            background: linear-gradient(to top right, #e992e4, #e6db9d);
+
+        }
+    </style>
+    <link rel="stylesheet" href="project3.css">
+</head>
+
+<body>
+
+    <div class="topborder">
+        <h3>Guess my Number that is between 1- 100</h3>
+        <button id="play" type="button" name="daplay" class="theplay"> Play</button>
+    </div>
+    <br><br><br>
+    <div class="numberborder">
+        <h1>Guess My Number</h1>
+        <div class="line">
+        </div>
+        <div class="therandom">
+            <h1 id="random">?</h1>
+        </div>
+    </div>
+    <div class="sborder">
+        <div class="hint">
+
+            <p id="Hintinput"><img id="inputicon" class="icon" src="not_available.png" alt="">No Input!</p>
+
+        </div>
+        <div class="points">
+            <p id="points"><img class="icon" src="100.png" alt="">Score: 10</p>
+            <p id="High"><img class="icon" src="medal.png" alt="">Highest Score: 0</p>
+        </div>
+    </div>
+    <div class="checkborder">
+        <div class="msgbox">
+            <input id="msg" type="number" name="" value="">
+        </div>
+
+
+        <button id="checker" type="submit" class="checkerbutton" name="button">Check</button>
+    </div>
+    <script src="project3.js"></script>
+</body>
+
+</html>
