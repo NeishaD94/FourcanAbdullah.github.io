@@ -39,7 +39,7 @@ function checkHowClose() {
 
     }
     else if (userInput == secretNumber) {
-        document.querySelector('body').style.background = 'linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))';
+        document.querySelector('body').style.background = 'linear-gradient(to top right, green, blue)';
         document.querySelector('.therandom').style.background = 'red';
         document.getElementById('random').textContent = `${secretNumber}`;
         document.getElementById('Hintinput').textContent = "Correct Answer";
