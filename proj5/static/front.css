@@ -1,0 +1,73 @@
+.mwindow1{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(225, 23, 45, 0.5);
+    opacity: 0;
+    pointer-events: none;
+
+    transition:all 400ms ease-in-out;
+}
+.mwindow1:target{
+  opacity: 1;
+  pointer-events: all;
+
+}
+.closewindow{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.msgblock{
+
+  position: relative;
+  width:400px;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+
+
+
+}
+.xbutton{
+  float: right;
+  padding-left:10px;
+  padding-right:10px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.textbackground{
+padding-right: 7px;
+  background-color: lightgrey;
+  padding-left: 7px;
+  padding-bottom: 10px;
+}
+.innerbg{
+  text-align: center;
+  padding-top:10px;
+  padding-bottom: 10px;
+
+}
+
+.checker{
+  text-align: left;
+  margin-left: 55px;
+}
+
+.editb{
+  text-decoration: none;
+  height: 5%;
+  background-color: black;
+  color: white;
+  padding: 5px 5px 5px 5px;
+
+}
+.suborder a:hover{
+  background-color: grey;
+
+}
